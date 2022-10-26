@@ -1,7 +1,7 @@
 export class copia  {
-
 private id: number = 0;
 private estado: string ="";
+public Libro:[]=[];
 constructor(id:number, estado:string){
 
     this.id = id;
@@ -21,5 +21,6 @@ public set_id(id:number ){
 public set_estado(estado:string){
     this.estado = estado;
 }
+libro: string[] = ['muchos'];
 
 }
